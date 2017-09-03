@@ -1,0 +1,166 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+#myCarousel {
+  margin-bottom: 20px;
+}
+
+.thumbnail {
+  position: relative;
+  padding: 0;
+  border: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 500px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(23, 23, 23, 0.56);
+  color: white;
+}
+
+.thumbnail:hover .overlay {
+  opacity: 1;
+}
+
+.overlay h3, .overlay h2 {
+  margin-left: 15px;
+}
+
+.col-lg-6 img {
+  margin: 0;
+}
+
+.recent-projects {
+  margin-bottom: 30px;
+  margin-top: 50px;
+  padding-left: 15px;
+}
+
+.projectbtn {
+  margin-bottom: 10%;
+}
+
+.navbar-default {
+  border: .5px solid black;
+  border-radius: 0;
+  background: white;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background: none;
+    font-weight: bolder;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  background: white;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+}
+
+.btn-spacing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-default {
+  border: .5px solid black;
+  border-radius: 0;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    color: #fff;
+    background-color: black;
+    border:.5px solid black;
+}
+
+.footer-info {
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+
+.teaser {
+  margin-top: 30px;
+}
+
+span.footer-crap {
+   font-weight: bolder;
+   font-size: 20px;
+ }
+
+ span.footer-bottom {
+   line-height: 60%;
+ }
+
+ .media-icons {
+   margin-top: 20px;
+ }
+
+ footer .fa {
+   margin-right: 20px;
+ }
+
+ .footerChunk {
+   padding: 0;
+   margin-bottom: 6%;
+ }
+
+ /*about*/
+ .bigImage {
+   padding: 0;
+   margin-bottom: 6%;
+ }
+
+ .aboutInfo {
+   margin-bottom: 25%;
+   font-family: 'Encode Sans', sans-serif;
+   font-size: 1.2em;
+ }
+
+ /*contact page*/
+ .contactImage {
+   margin-bottom: 7%;
+ }
+
+ .formjunk>h2 {
+   margin-bottom: 5%;
+ }
+
+ .formjunk {
+   margin-bottom: 10%;
+ }
+
+ .form-control {
+   border: 1px solid black;
+   border-radius: 0;
+ }
+
+ .form-control:focus{
+   border: 1px solid black;
+   box-shadow: none;
+ }
